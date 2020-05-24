@@ -15,3 +15,4 @@ set mouse=a " enable mouse in context neovim
 " switch between tabs
 nnoremap H gT
 nnoremap L gt
+

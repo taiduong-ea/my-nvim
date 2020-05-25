@@ -29,3 +29,7 @@ let g:ctrlp_custom_ignore = {
 " airline
 let g:airline#extensions#branch#enabled=1
 let g:airline_theme = "palenight"
+
+" easymotion
+nmap <silent> gw <Plug>(easymotion-overwin-f2)
+let g:EasyMotion_smartcase = 1

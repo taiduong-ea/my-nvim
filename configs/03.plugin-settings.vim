@@ -33,3 +33,14 @@ let g:airline_theme = "palenight"
 " easymotion
 nmap <silent> gw <Plug>(easymotion-overwin-f2)
 let g:EasyMotion_smartcase = 1
+
+" deoplete
+let g:deoplete#enable_at_startup = 1
+
+" ultisnips
+let g:UltiSnipsExpandTrigger="<tab>"
+let g:UltiSnipsJumpForwardTrigger="<c-b>"
+let g:UltiSnipsJumpBackwardTrigger="<c-z>"
+
+" nerdcommenter
+

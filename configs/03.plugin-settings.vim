@@ -44,3 +44,5 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " nerdcommenter
 
+" go
+let g:go_fmt_command = "goimports"

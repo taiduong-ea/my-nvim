@@ -1,5 +1,4 @@
 call plug#begin('~/.config/nvim/bundle')
-" vim for go
 Plug 'scrooloose/nerdtree'
 Plug 'drewtempelmeyer/palenight.vim'
 Plug 'vim-airline/vim-airline'
@@ -7,8 +6,13 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
+" golang
+Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
+Plug 'godoctor/godoctor.vim'
 if has('nvim')
   Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+  Plug 'zchee/deoplete-go', {'build': {'unix': 'make'}}
+  Plug 'jodosha/vim-godebug' " Debugger integration via delve
 else
   Plug 'Shougo/deoplete.nvim'
   Plug 'roxma/nvim-yarp'

@@ -8,7 +8,8 @@ set autoindent
 set copyindent      " copy indent from the previous line
 " }}} Spaces & Tabs
 " show line number
-set number
+set number relativenumber
+set nu rnu
 
 set mouse=a " enable mouse in context neovim 
 

@@ -46,3 +46,23 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " go
 let g:go_fmt_command = "goimports"
+
+" neoformat
+" Enable alignment
+let g:neoformat_basic_format_align = 1
+
+" Enable tab to spaces conversion
+let g:neoformat_basic_format_retab = 1
+
+" Enable trimmming of trailing whitespace
+let g:neoformat_basic_format_trim = 1
+
+" jedi-vim
+" disable autocompletion, cause we use deoplete for completion
+let g:jedi#completions_enabled = 0
+
+" open the go-to function in split, not another buffer
+let g:jedi#use_splits_not_buffers = "right"
+
+" neomake
+let g:neomake_python_enabled_makers = ['pylint']

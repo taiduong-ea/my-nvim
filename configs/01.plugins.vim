@@ -21,5 +21,11 @@ endif
 Plug 'sirver/ultisnips'
 Plug 'honza/vim-snippets'
 Plug 'preservim/nerdcommenter'
+" python
+Plug 'zchee/deoplete-jedi'
+Plug 'jiangmiao/auto-pairs'
+Plug 'sbdchd/neoformat'
+Plug 'davidhalter/jedi-vim'
+Plug 'neomake/neomake'
 call plug#end()
 

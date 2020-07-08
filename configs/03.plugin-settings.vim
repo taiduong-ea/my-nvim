@@ -46,6 +46,7 @@ let g:UltiSnipsJumpBackwardTrigger="<c-z>"
 
 " go
 let g:go_fmt_command = "goimports"
+let g:deoplete#sources#go#gocode_binary = '$GOPATH/bin/gocode'
 
 " neoformat
 " Enable alignment
@@ -66,3 +67,4 @@ let g:jedi#use_splits_not_buffers = "right"
 
 " neomake
 let g:neomake_python_enabled_makers = ['pylint']
+

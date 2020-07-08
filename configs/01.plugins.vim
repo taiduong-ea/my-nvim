@@ -30,4 +30,5 @@ Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
 Plug 'neomake/neomake'
 Plug 'tmhedberg/SimpylFold'
+Plug 'machakann/vim-highlightedyank'
 call plug#end()

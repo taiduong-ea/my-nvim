@@ -1,6 +1,11 @@
 " NERDTree {{
 map <C-n> :NERDTreeToggle<CR>
 map <C-f> :NERDTreeFind<CR>
+" Prevent NERDTree from hiding when first selecting a file and auto open
+" NERDTree when open a dictionary.
+autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in") | wincmd p | ene | exe 'NERDTree' argv()[0] | endif
+" Close vim if the only window left open is a NERDTree
+autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif 
 " }}
 " palenight {{
 set background=dark

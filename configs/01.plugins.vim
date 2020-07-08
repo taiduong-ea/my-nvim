@@ -6,6 +6,7 @@ Plug 'ctrlpvim/ctrlp.vim'
 Plug 'tpope/vim-fugitive'
 Plug 'tpope/vim-surround'
 Plug 'easymotion/vim-easymotion'
+Plug 'terryma/vim-multiple-cursors'
 " golang
 Plug 'fatih/vim-go', { 'do': ':GoUpdateBinaries' }
 Plug 'godoctor/godoctor.vim'

@@ -29,5 +29,5 @@ Plug 'jiangmiao/auto-pairs'
 Plug 'sbdchd/neoformat'
 Plug 'davidhalter/jedi-vim'
 Plug 'neomake/neomake'
+Plug 'tmhedberg/SimpylFold'
 call plug#end()
-

@@ -31,4 +31,5 @@ Plug 'davidhalter/jedi-vim'
 Plug 'neomake/neomake'
 Plug 'tmhedberg/SimpylFold'
 Plug 'machakann/vim-highlightedyank'
+Plug 'christoomey/vim-tmux-navigator'
 call plug#end()

@@ -5,3 +5,4 @@ pip3 istall jedi
 pip3 install pynvim
 pip3 install yapf
 pip3 install pylint
+pip3 install flake8

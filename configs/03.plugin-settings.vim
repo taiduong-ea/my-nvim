@@ -76,7 +76,7 @@ let g:jedi#completions_enabled = 0
 let g:jedi#use_splits_not_buffers = "right"
 
 " neomake
-let g:neomake_python_enabled_makers = ['pylint']
+let g:neomake_python_enabled_makers = ['flake8']
 
 " tmux_navigator
 let g:tmux_navigator_no_mappings = 1

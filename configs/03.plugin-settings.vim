@@ -7,6 +7,7 @@ autocmd VimEnter * if argc() == 1 && isdirectory(argv()[0]) && !exists("s:std_in
 " Close vim if the only window left open is a NERDTree
 autocmd BufEnter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif 
 " }}
+
 " palenight {{
 set background=dark
 colorscheme palenight
@@ -63,6 +64,10 @@ let g:neoformat_basic_format_retab = 1
 " Enable trimmming of trailing whitespace
 let g:neoformat_basic_format_trim = 1
 
+let g:neoformat_enabled_python = ['autopep8', 'yapf']
+let g:neoformat_run_all_formatters = 0
+
+let g:neoformat_verbose = 0 
 " jedi-vim
 " disable autocompletion, cause we use deoplete for completion
 let g:jedi#completions_enabled = 0

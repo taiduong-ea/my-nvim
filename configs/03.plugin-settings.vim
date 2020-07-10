@@ -77,6 +77,7 @@ let g:jedi#use_splits_not_buffers = "right"
 
 " neomake
 let g:neomake_python_enabled_makers = ['flake8']
+call neomake#configure#automake('nrwi', 500)
 
 " tmux_navigator
 let g:tmux_navigator_no_mappings = 1

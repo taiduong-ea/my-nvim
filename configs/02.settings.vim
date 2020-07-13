@@ -7,7 +7,10 @@ set expandtab       " tabs are space
 set autoindent
 set copyindent      " copy indent from the previous line
 " }}} Spaces & Tabs
-" show line number
+" split bellow
+set splitbelow
+
+"" show line number
 set number relativenumber
 set nu rnu
 
@@ -16,4 +19,3 @@ set mouse=a " enable mouse in context neovim
 " switch between tabs
 nnoremap H gT
 nnoremap L gt
-

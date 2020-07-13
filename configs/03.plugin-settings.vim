@@ -68,6 +68,11 @@ let g:neoformat_enabled_python = ['autopep8', 'yapf']
 let g:neoformat_run_all_formatters = 0
 
 let g:neoformat_verbose = 0 
+" Format on save
+augroup fmt
+  autocmd!
+  autocmd BufWritePre * undojoin | Neoformat
+augroup END
 " jedi-vim
 " disable autocompletion, cause we use deoplete for completion
 let g:jedi#completions_enabled = 0
